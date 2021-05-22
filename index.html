@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Save The Forest</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+    background-color:#2d2d30;
+  }
+  h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #111;
+  }
+  .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border:20px double transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+
+  
+  .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .nav-tabs li a {
+    color: rgb(130, 215, 255);
+  }
+  
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Nature's Moment</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="#ANIMAL">ANIMALS</a></li>
+        <li><a href="#RAINFORESTS">RAINFORESTS</a></li>
+        <li><a href="#CONTACT">CONTACT</a></li>
+        <li><a href="#DONATE">DONATE</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="GettyImages-163642367_super.jpg"  style="width:2000px; height:775px;">
+        <div class="carousel-caption">
+          <p>The earth has music for those who listen. —William Shakespeare</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="R90af3c4bca67f4cd6510f3230f06da52.jpg"  style="width:2000px; height:775px;">
+        <div class="carousel-caption">
+          <p>Nature is not a place to visit. It is home. —Gary Snyder</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="wp4452513.jpg"  style="width:2000px; height:775px;">
+        <div class="carousel-caption">
+          <p style="color:#000; ">Every flower is a soul blossoming in nature. —Gerard De Nerval</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<div id="ABOUT" class="container text-center">
+  <h3 style="background-color:#ffffff;" >THE FOREST</h3>
+  <p style="color:#ffffff;" >Forests are an intricate ecosystem on earth which contains trees, shrubs, grasses and more. The constituents of forests which are trees and plants form a major part of the forests. Furthermore, they create a healthy environment so that various species of animals can breed and live there happily.</p>
+  <br>
+
+<div id="ANIMAL" >
+    <h3 class="text-center" style="color:#ffffff;" >TOP 3 ENDANGERED ANIMALS </h3>
+    <hr>
+    <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center" style="color:#ffffff;" ><strong>Gorilla</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="192186081120101066143102190238214213164061153126.jpg" class="img-circle person" width="255" height="255">
+      </a>
+        <p style="color:#ffffff;" >Perhaps one of the most endangered species in the world, these gentle and shy animals were once found extensively in the rainforest. These Gorillas found in the eastern lowland are completely herbivorous. About 80% of their population has gone extinct which is a huge cause of concern. Some of the major causes for their endangerment is habitat encroachment by humans and poaching for the purpose of making talismans, trophies, bush meat, etc. It has also been found that diseases caused by the virus ‘Ebola’ have been a huge reason for their dwindling numbers.</p>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center" style="color:#ffffff;" ><strong>Bengal Tiger</strong></p><br>
+        <img src="2852023132_022ebfa27d_z.jpg" class="img-circle person"  width="255" height="255">
+      </a>
+    <p style="color:#ffffff;" >These majestic animals are found in the Sundarbans Regions in India, Bangladesh and China. Extensively poached for their skin, hunting by humans is one of the leading causes for their endangered status. As their skin is extremely valuable, even the methods to hunt them are quite barbaric. Instead of shooting them, which could cause holes in their fur, their meat is poisoned which results in an agonizing and slow death. The governments of the countries that these tigers are native to have failed to implement effective measures to preserve this</p>
+        </div>
+    <div class="col-sm-4">
+      <p class="text-center" style="color:#ffffff;" ><strong>Red Panda</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="R90617c1a3da1eac41419c40e9553a894.jpg" class="img-circle person" width="255" height="255">
+      </a>
+        <p style="color:#ffffff;" >The red panda is mostly found in South-Western China and the Himalayas. It is a very curious mammal as even though it has the name ‘panda’ in it; it does not relate much with the panda but more with skunks and raccoons. The red panda has a diet consisting of lizards, fruits, vegetables, bamboos, leaves, birds and eggs. The red panda is a bit heavier than the domestic cat even though it’s similar in size. It is a solitary animal which is usually active throughout the day.
+            Unfortunately, according to IUCN the red panda has been classified as an endangered species due to the massive decline in its population around the world. According to the IUCN red list, it is being stated that the population of the red panda is below 10,000.
+            The major reasons of Red Pandas being endangered are:
+            Habitat fragmentation
+            Habitat destruction
+            Deforestation
+            Poaching (for fur and more)
+            Hunting (as a sport)
+            Depression during inbreeding
+            Poaching and habitat loss are ongoing even after rules and regulations have been passed by several countries such as China and Myanmar to protect the rare red panda from becoming endangered. China passed the Wild Animal Protection Law and Myanmar passed the Wildlife Act of 1994. Habitat loss and poaching are the main reasons why populations of the Red Panda are increasingly being fragmented.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<br>
+<br>
+
+
+<div id="RAINFORESTS" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOP 3 ENDANGERED RAINFORESTS </h3>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <ul class="list-group">
+      <li class="list-group-item">Atlantic Rainforest, South America <span class="label label-danger">ENDANGERED</span></li>
+      <li class="list-group-item">Philippines, Asia-Pacific Forest Region <span class="label label-danger">ENDANGERED</span></li> 
+      <li class="list-group-item">Sundaland, Asia-Pacific Forest Region <span class="label label-danger">ENDANGERED</span></li>
+    </ul>
+    <br>
+    <br>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="istockphoto-935746242-170667a.jpg" width="400" height="300">
+              <p><strong>Atlantic Rainforest, South America</strong></p>
+              <p>The Atlantic Rainforest is located along the Coast of Brazil and extends to parts of Paraguay, Argentina, and Uruguay. The Forest also includes islands off the coasts of Brazil and the offshore archipelago of Fernando de Noronha.
+
+                The Atlantic Rainforest habitat is composed of both tropical and subtropical moist broadleaf forests, consists of 20,000 plant species, and over 24 Critically Endangered vertebrate species such as Lion Tamarins. The primary threats include the expansion of sugarcane and coffee plantations, and increased population and urbanization of the areas immediately surrounding Rio de Janeiro and Sao Paulo. A mere 7% of the original Atlantic Rainforest remains today.</p>
+
+            </div>
+          </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="rd6ftuv jhbjiuhgtgvhbiuhgftyvuyftycfgvutycgv.jpg" width="400" height="300">
+          <p><strong>Philippines, Asia-Pacific</strong></p>
+          <p>This forested region is located in Indonesia, and consists of 17,000 equatorial islands, including Borneo and Sumatra. The special fauna that lives there includes the Sumatran Orangutan and the Bornean Orangutan, and two Southeast Asian rhino species.
+
+            Threats to the flora and fauna include international animal trade, unsustainable legal and illegal logging, and commercial rubber, oil palm, and pulp production. Only about 7% of the original forest habitat remains.</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="tmp716685242059980801.jpg" width="400" height="300">
+          <p><strong>Sundaland, Asia-Pacific</strong></p>
+          <p>This forested region is located in Indonesia, and consists of 17,000 equatorial islands, including Borneo and Sumatra. The special fauna that lives there includes the Sumatran Orangutan and the Bornean Orangutan, and two Southeast Asian rhino species.
+            
+            Threats to the flora and fauna include international animal trade, unsustainable legal and illegal logging, and commercial rubber, oil palm, and pulp production. Only about 7% of the original forest habitat remains.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<div id="CONTACT" class="container">
+  <h3 class="text-center">Contact US</h3>
+  <hr>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <p>Questions?</p>Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Mckinney Texas, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone:123-456-8901</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: alisha.panda@gmail.com </p>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3 style="background-color:#ffffff; color:#000; text-align: center;" >DONATE</h3>
+<img src="172a1e5397b8bf61474af9688fc707f7.jpg" class="img-responsive" style="width:100%" >
+
+<!-----------------------------------------------------------------DONATE------------------------------------------------------------------------->
+<footer id="DONATE" class="text-center"  >
+  <p>A Wildlife Conservatory You can Donate To -
+ <a href="https://www.wcs.org/"> https://www.wcs.org/</a></p> 
+</footer>
+
+
+</body>
+</html>
